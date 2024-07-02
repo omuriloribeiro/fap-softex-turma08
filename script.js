@@ -42,3 +42,5 @@ const ingresso_standard_com_pipoca = '70 reais'
 
 let ingresso_cliente = prompt('Qual ingresso você deseja? Digite VIP ou STANDARD')
 let pipoca_cliente = prompt('Você quer pipoca? Digite SIM ou NÃO')
+
+//6. Chat
