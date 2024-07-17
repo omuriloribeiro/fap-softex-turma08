@@ -35,12 +35,57 @@
 // }
 
 //5.CINEMA
-const ingresso_vip_sem_pipoca  = '80 reais'
-const ingresso_vip_com_pipoca = '110 reais'
-const ingresso_standard_sem_pipoca = '40 reais'
-const ingresso_standard_com_pipoca = '70 reais'
 
-let ingresso_cliente = prompt('Qual ingresso você deseja? Digite VIP ou STANDARD')
-let pipoca_cliente = prompt('Você quer pipoca? Digite SIM ou NÃO')
+// const prompt = require('prompt-sync')();
+// const ingressoVipSemPipoca = '80 reais';
+// const ingressoVipComPipoca = '110 reais';
+// const ingressoStandardSemPipoca = '40 reais';
+// const ingressoStandardComPipoca = '70 reais';
+
+// let ingressoCliente = prompt('Qual ingresso você deseja? Digite VIP ou STANDARD: ');
+// let pipocaCliente = prompt('Você quer pipoca? Digite SIM ou NÃO: ');
+
+// switch (ingressoCliente) {
+//   case "VIP":
+//     if (pipocaCliente === "SIM") {
+//       console.log("O total da sua compra foi " + ingressoVipComPipoca);
+//     } else {
+//       console.log("O total da sua compra foi " + ingressoVipSemPipoca);
+//     }
+//     break;
+//   case "STANDARD":
+//     if (pipocaCliente === "SIM") {
+//       console.log("O total da sua compra foi " + ingressoStandardComPipoca);
+//     } else {
+//       console.log("O total da sua compra foi " + ingressoStandardSemPipoca);
+//     }
+//     break;
+//   default:
+//     console.log("Opção inválida. Por favor, digite VIP ou STANDARD.");
+// }
+
 
 //6. Chat
+//Escreva um código que simula um Chat. Nesse código, o usuário criará um menu interativo
+// com 3 opções de resposta. Em cada resposta terá que haver outras formas de interação final. 
+//Antes de terminar, o código deve informar que irá ser encerrado.
+
+const prompt = require('prompt-sync')();
+let nome = prompt('Qual o seu nome? ')
+
+console.log('Olá, ' + nome + '. Bem-vindo(a) a operadora Johnson')
+let opcao_cliente = prompt('Digite o número de acordo com o que deseja: 1.Contratar plano  2.Suporte técnico  3.Feedback: ')
+switch (opcao_cliente){
+case '1':
+    console.log('boa')
+    break;
+case '2':
+    console.log('ai sim')
+    break;
+case '3': 
+    console.log('kkkk')
+    break;
+
+default:
+    console.log('Opção inválida. Por favor digite novamente')
+}
