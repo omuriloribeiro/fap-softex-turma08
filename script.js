@@ -70,22 +70,71 @@
 // com 3 opções de resposta. Em cada resposta terá que haver outras formas de interação final. 
 //Antes de terminar, o código deve informar que irá ser encerrado.
 
-const prompt = require('prompt-sync')();
-let nome = prompt('Qual o seu nome? ')
+// const prompt = require('prompt-sync')();
+// let nome = prompt('Qual o seu nome? ')
 
-console.log('Olá, ' + nome + '. Bem-vindo(a) a operadora Johnson')
-let opcao_cliente = prompt('Digite o número de acordo com o que deseja: 1.Contratar plano  2.Suporte técnico  3.Feedback: ')
-switch (opcao_cliente){
-case '1':
-    console.log('boa')
-    break;
-case '2':
-    console.log('ai sim')
-    break;
-case '3': 
-    console.log('kkkk')
-    break;
+// console.log('-------------------------------------------------------')
+// console.log('Olá, ' + nome + '. Bem-vindo(a) a operadora Johnson')
+// console.log('-------------------------------------------------------')
+// console.log('Digite o número de acordo com o que deseja: 1.Contratar plano  2.Suporte técnico  3.Feedback: ')
+// let opcao_cliente = prompt('')
+// switch (opcao_cliente){
+//     case '1':
+//         console.log('Qual plano deseja contratar? 1.Celular 2.Casa 3.Celular + Casa')
+//         let plano = prompt("")
+//             if (plano == '1'){ 
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             } 
+//             if (plano == '2'){
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             }
+//             if (plano == '3'){
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             }
+//         break;
 
-default:
-    console.log('Opção inválida. Por favor digite novamente')
-}
+//     case '2':
+//         console.log('O suporte é para que finalidade? 1.Celular 2.Wi-fi residensical 3.Televisão')
+//         let suporte = prompt('')
+//             if (suporte == '1'){
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             }
+//             if (suporte == '2'){
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             }
+//             if (suporte =='3'){
+//                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
+//             }
+//         break;
+
+//     case '3': 
+//         console.log('Que tipo de feedback é: 1.Positivo 2.Negativo')
+//         let feedback = prompt('')
+//             if (feedback == '1'){
+//                 console.log('Digite o seu feedback:')
+//                 prompt('')
+//                     console.log('Agradecemos! Sua opinião é muito importante para nós e servirá para melhorarmos.')
+//             }
+//             if (feedback == '2'){
+//                 console.log('Digite o seu feedback:')
+//                 prompt('')
+//                     console.log('Agradecemos! Sua opinião é muito importante para nós e servirá para melhorarmos.')
+//             }
+//         break;
+
+//     default:
+//         console.log('Opção inválida. Por favor digite novamente');
+    
+// }
+// console.log('')
+// console.log('Seu atendimento será encerrado. Caso deseje um novo, inicie novamente.')
+
+// 7 - A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, 
+// cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês,
+// o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas.
+// (considere que o mês possua 4 semanas exatas). 
+
+
+
+// 8 - Elabore uma calculadora simples, levando em consideração dois números de entrada pelo usuário e uma opção de operação
+//  (SOMA, SUBTRAÇÃO, DIVISÃO etc). Pode ser utilizado o conceito do switch/case, IF/ELSE, funções e... laço se já souber! 
