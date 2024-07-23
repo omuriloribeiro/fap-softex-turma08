@@ -4,6 +4,8 @@
 // const mensagem = `${dolar} dólares equivalem a ${dolar_conversao.toFixed(2)} reais`
 // alert(mensagem);
 
+const { espacamento_2 } = require("./funcoes")
+
 //2.NÚMERO ÍMPAR OU PAR
 // let numero = parseInt(prompt('Digite um número inteiro: '))
 // if (numero % 2 == 0){
@@ -134,7 +136,13 @@
 // o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas.
 // (considere que o mês possua 4 semanas exatas). 
 
+const {espacamento2} = require('./funcoes.js')
+const prompt = require('prompt-sync')();
 
-a
+espacamento2()
+console.log('Olá')
+espacamento2()
+
+
 // 8 - Elabore uma calculadora simples, levando em consideração dois números de entrada pelo usuário e uma opção de operação
 //  (SOMA, SUBTRAÇÃO, DIVISÃO etc). Pode ser utilizado o conceito do switch/case, IF/ELSE, funções e... laço se já souber! 
