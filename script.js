@@ -135,6 +135,6 @@
 // (considere que o mês possua 4 semanas exatas). 
 
 
-
+a
 // 8 - Elabore uma calculadora simples, levando em consideração dois números de entrada pelo usuário e uma opção de operação
 //  (SOMA, SUBTRAÇÃO, DIVISÃO etc). Pode ser utilizado o conceito do switch/case, IF/ELSE, funções e... laço se já souber! 
