@@ -68,9 +68,9 @@ const { espacamento_2 } = require("./funcoes")
 
 
 //6. Chat
-//Escreva um código que simula um Chat. Nesse código, o usuário criará um menu interativo
+// Escreva um código que simula um Chat. Nesse código, o usuário criará um menu interativo
 // com 3 opções de resposta. Em cada resposta terá que haver outras formas de interação final. 
-//Antes de terminar, o código deve informar que irá ser encerrado.
+// Antes de terminar, o código deve informar que irá ser encerrado.
 
 // const prompt = require('prompt-sync')();
 // let nome = prompt('Qual o seu nome? ')
@@ -78,12 +78,18 @@ const { espacamento_2 } = require("./funcoes")
 // console.log('-------------------------------------------------------')
 // console.log('Olá, ' + nome + '. Bem-vindo(a) a operadora Johnson')
 // console.log('-------------------------------------------------------')
-// console.log('Digite o número de acordo com o que deseja: 1.Contratar plano  2.Suporte técnico  3.Feedback: ')
+// console.log('Digite o número de acordo com o que deseja: ')
+// console.log('1.Contratar plano')
+// console.log('2.Suporte técnico')
+// console.log('3.Feedback')
 // let opcao_cliente = prompt('')
 // switch (opcao_cliente){
 //     case '1':
-//         console.log('Qual plano deseja contratar? 1.Celular 2.Casa 3.Celular + Casa')
-//         let plano = prompt("")
+//         console.log('          Qual plano deseja contratar?')
+//         console.log('          1. Celular')
+//         console.log('          2.Casa')
+//         console.log('          3.Celular + Casa')
+//         let plano = prompt("          ")
 //             if (plano == '1'){ 
 //                 console.log('Estamos lhe transferindo para um atendente... Por favor aguarde')
 //             } 
@@ -138,10 +144,16 @@ const { espacamento_2 } = require("./funcoes")
 
 const {espacamento2} = require('./funcoes.js')
 const prompt = require('prompt-sync')();
+const JornadaTrabalhoSemanal = '40h'
+let nome = prompt('Qual o seu nome?')
+let JornadaExtra = prompt('Quantas horas extras você fez no mês?')
+let SalarioHora = prompt('Quanto é o seu salário por hora?')
+const SalarioTotal = JornadaTrabalhoSemanal*SalarioHora*4 + 
 
 espacamento2()
-console.log('Olá')
+console.log('Olá, ' + nome. 'Vamos calcular o seu salário total: ')
 espacamento2()
+
 
 
 // 8 - Elabore uma calculadora simples, levando em consideração dois números de entrada pelo usuário e uma opção de operação
