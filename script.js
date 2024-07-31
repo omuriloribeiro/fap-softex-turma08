@@ -4,7 +4,7 @@
 // const mensagem = `${dolar} dólares equivalem a ${dolar_conversao.toFixed(2)} reais`
 // alert(mensagem);
 
-const { espacamento_2 } = require("./funcoes")
+// const { espacamento_2 } = require("./funcoes")
 
 //2.NÚMERO ÍMPAR OU PAR
 // let numero = parseInt(prompt('Digite um número inteiro: '))
@@ -145,14 +145,16 @@ const { espacamento_2 } = require("./funcoes")
 const {espacamento2} = require('./funcoes.js')
 const prompt = require('prompt-sync')();
 const JornadaTrabalhoSemanal = '40h'
-let nome = prompt('Qual o seu nome?')
-let JornadaExtra = prompt('Quantas horas extras você fez no mês?')
-let SalarioHora = prompt('Quanto é o seu salário por hora?')
-const SalarioTotal = JornadaTrabalhoSemanal*SalarioHora*4 + 
+let nome = prompt('Qual o seu nome? ')
+let JornadaExtra = prompt('Quantas horas extras você fez no mês? ')
+let SalarioHora = prompt('Quanto é o seu salário por hora? ')
+const SalarioExtra = JornadaExtra * SalarioHora * 1.5
+const SalarioTotal = JornadaTrabalhoSemanal * SalarioHora * 4 + SalarioExtra * 4
 
 espacamento2()
-console.log('Olá, ' + nome. 'Vamos calcular o seu salário total: ')
+console.log('Olá, ' + nome + ' seu salário total mensal é igual a: ' + SalarioTotal)
 espacamento2()
+
 
 
 
