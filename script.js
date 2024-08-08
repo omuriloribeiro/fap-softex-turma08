@@ -142,21 +142,60 @@
 // o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas.
 // (considere que o mês possua 4 semanas exatas). 
 
-const {espacamento2} = require('./funcoes.js')
-const prompt = require('prompt-sync')();
-const JornadaTrabalhoSemanal = '40h'
-let nome = prompt('Qual o seu nome? ')
-let JornadaExtra = prompt('Quantas horas extras você fez no mês? ')
-let SalarioHora = prompt('Quanto é o seu salário por hora? ')
-const SalarioExtra = JornadaExtra * SalarioHora * 1.5
-const SalarioTotal = JornadaTrabalhoSemanal * SalarioHora * 4 + SalarioExtra * 4
+// const {espacamento2} = require('./funcoes.js')
+// const prompt = require('prompt-sync')();
+// const JornadaTrabalhoSemanal = '40'
+// let nome = prompt('Qual o seu nome? ')
+// let JornadaExtra = prompt('Quantas horas extras você fez no mês? ')
+// let SalarioHora = prompt('Quanto é o seu salário por hora? ')
+// const SalarioExtra = JornadaExtra * SalarioHora * 1.5
+// const SalarioTotal = JornadaTrabalhoSemanal * SalarioHora * 4 + SalarioExtra
 
-espacamento2()
-console.log('Olá, ' + nome + ' seu salário total mensal é igual a: ' + SalarioTotal)
-espacamento2()
-
-
+// espacamento2()
+// console.log('Olá, ' + nome + ', seu salário total mensal é igual a: ' + SalarioTotal)
+// espacamento2()
 
 
-// 8 - Elabore uma calculadora simples, levando em consideração dois números de entrada pelo usuário e uma opção de operação
-//  (SOMA, SUBTRAÇÃO, DIVISÃO etc). Pode ser utilizado o conceito do switch/case, IF/ELSE, funções e... laço se já souber! 
+
+
+// 8 - Elabore uma calculadora simples, levando em consideração dois números
+// de entrada pelo usuário e uma opção de operação
+//  (SOMA, SUBTRAÇÃO, DIVISÃO etc). Pode ser utilizado o conceito do switch/case,
+// IF/ELSE, funções e... laço se já souber! 
+
+// const {espacamento2} = require('./funcoes.js')
+// const prompt = require('prompt-sync')();
+
+// console.log('Olá, está é sua calculadora virtual.')
+// console.log('Por favor digite o primeiro número: ')
+// const PrimeiroNumero = Number(prompt(''))
+
+// console.log('Qual operação matemática você deseja realizar? Digite o número dela.')
+// console.log('1.Adição  2.Subtração  3.Multiplicação  4.Divisão')
+// const Operacao = Number(prompt(''))
+
+// console.log('Por favor digite o segundo número da operação:')
+// const SegundoNumero = Number(prompt(''))
+
+// switch(Operacao) {
+
+//     case 1:
+//         console.log('O resultado é igual a: ' + (PrimeiroNumero + SegundoNumero))
+//         break;
+
+//     case 2:
+//         console.log('O resultado é igual a: ' + (PrimeiroNumero - SegundoNumero))
+//         break;
+
+//     case 3: 
+//         console.log('O resultado é igual a: ' + (PrimeiroNumero * SegundoNumero))
+//         break;
+
+//     case 4: 
+//         console.log('O resultado é igual a: ' + (PrimeiroNumero / SegundoNumero))
+//         break;
+
+//     default:
+//         console.log('Por favor digite uma opção válida.')
+
+// }
