@@ -1,10 +1,11 @@
-//1.CONVERSOR DE DÓLAR PARA REAL
-// let dolar = prompt('Quantos dólares você quer converter para reais?')
-// const dolar_conversao = 5.49*dolar
-// const mensagem = `${dolar} dólares equivalem a ${dolar_conversao.toFixed(2)} reais`
-// alert(mensagem);
+// 1.CONVERSOR DE DÓLAR PARA REAL
+const prompt = require('prompt-sync')();
+let dolar = prompt('Quantos dólares você quer converter para reais? ')
+const dolar_conversao = 5.49*dolar
+const mensagem = `${dolar} dólares equivalem a ${dolar_conversao.toFixed(2)} reais`
+console.log(mensagem);
 
-// const { espacamento_2 } = require("./funcoes")
+const { espacamento_2 } = require("./funcoes")
 
 //2.NÚMERO ÍMPAR OU PAR
 // let numero = parseInt(prompt('Digite um número inteiro: '))
@@ -18,9 +19,9 @@
 // let numero_1 = prompt('Digite o primeiro número: ')
 // let numero_2 = prompt('Digite o segundo número: ')
 // if (numero_1 > numero_2){
-//     alert(`${numero_1} é maior que ${numero_2}`)
+//     console.log(`${numero_1} é maior que ${numero_2}`)
 // } else{
-//     alert(`${numero_1} é menor que ${numero_2}`)
+//     console.log(`${numero_1} é menor que ${numero_2}`)
 // }
 
 //4.NOTAS DE PROVA
